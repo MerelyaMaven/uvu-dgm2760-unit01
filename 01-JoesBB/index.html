@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Joes's Bed and Breakfast</title>
+    <link href="/01-JoesBB/css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+<h1 id="company"></h1>
+<h2 id="slogan"></h2>
+    </header>
+    <main>
+        <h1 id="pageName"></h1>
+        
+        <h2>What I learned</h2>
+        <ul class="objectives">
+            <li>Build a simple webpage with a header, main and footer</li>
+            <li>Find and correclty resize an image to be loaded into the header using CSS</li>
+            <li>Use JavaScript to insert the current date into a web page</li>
+            <li>Use JavaScript to insert the current date into a web page</li>
+            <li>Style a page using CSS</li>
+            <li>Push code to a GitHub repository</li>
+            <li>Deploy a webpage using Netlify</li>
+        </ul>
+        <h2>Today is
+            <script>
+                let thedate = new Date()
+                document.write(thedate.toLocaleDateString())
+            </script>
+        </h2>
+        <p id="greeting"></p>
+    </main>
+    <footer>
+<p>Assignment for DGM 2760 by Tressa Hopkinson</p>
+    </footer>
+    <script type="text/javascript" src="/01-JoesBB/js/main.js"></script>
+</body>
+</html>

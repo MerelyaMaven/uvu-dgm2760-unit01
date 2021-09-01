@@ -1,0 +1,17 @@
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/lodge-at-night.jpg");
+    width: 960px;
+    height: 500px;
+}
+h1 {
+    color: #fff;
+}
+header h2 {
+    color: #fff;
+}
+
+h2 {
+    color:black;
+}
